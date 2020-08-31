@@ -53,7 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				545594FE24FD318000C00229 /* CalorieApp.swift */,
-				5455950024FD318000C00229 /* ContentView.swift */,
+				5455950E24FD31E600C00229 /* Models */,
+				5455950D24FD31DA00C00229 /* Views */,
 				5455950224FD318200C00229 /* Assets.xcassets */,
 				5455950724FD318200C00229 /* Info.plist */,
 				5455950424FD318200C00229 /* Preview Content */,
@@ -67,6 +68,21 @@
 				5455950524FD318200C00229 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5455950D24FD31DA00C00229 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5455950024FD318000C00229 /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5455950E24FD31E600C00229 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
