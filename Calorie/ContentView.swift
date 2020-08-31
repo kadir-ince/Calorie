@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var activeCardIndex: Int = 0
-
+    @EnvironmentObject var model: CalorieModel
+    
     var body: some View {
         VStack {
             Spacer()
@@ -22,25 +23,33 @@ struct ContentView: View {
             if activeCardIndex == 2 {
                 AgeCard()
             }
-
+            
             if activeCardIndex == 3 {
                 HeightCard()
             }
             if activeCardIndex == 4 {
                 WeightCard()
             }
-
+            
             if activeCardIndex == 5 {
                 ResultCard()
             }
-
-            NextButton()
-                .onTapGesture(perform: {
-                    moveToNextCard()
-                })
+            
+            if activeCardIndex < 4 {
+                NextButton()
+                    .onTapGesture(perform: {
+                        moveToNextCard()
+                    })
+            } else {
+                CalculateButton()
+                    .onTapGesture {
+                        model.CalculateBMR()
+                        moveToNextCard()
+                    }
+            }
         }
     }
-
+    
     func moveToNextCard() {
         withAnimation(.spring()) {
             if activeCardIndex <= 4 {

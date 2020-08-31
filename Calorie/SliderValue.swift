@@ -18,5 +18,3 @@ struct SliderValue: View {
             .clipShape(Circle())
     }
 }
-
-

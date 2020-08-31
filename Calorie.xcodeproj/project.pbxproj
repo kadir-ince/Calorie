@@ -23,6 +23,7 @@
 		54AC107E24FD4038006951AD /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107D24FD4038006951AD /* Gender.swift */; };
 		54AC108024FD4086006951AD /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107F24FD4086006951AD /* CalorieModel.swift */; };
 		54AC108224FD463A006951AD /* SliderValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC108124FD463A006951AD /* SliderValue.swift */; };
+		54AC108424FD4959006951AD /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC108324FD4959006951AD /* CalculateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		54AC107D24FD4038006951AD /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		54AC107F24FD4086006951AD /* CalorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieModel.swift; sourceTree = "<group>"; };
 		54AC108124FD463A006951AD /* SliderValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderValue.swift; sourceTree = "<group>"; };
+		54AC108324FD4959006951AD /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +102,15 @@
 				5455950024FD318000C00229 /* ContentView.swift */,
 				5455950F24FD324000C00229 /* TitleCard.swift */,
 				54AC106F24FD3927006951AD /* CardBackground.swift */,
+				54AC107124FD398B006951AD /* CardLabel.swift */,
 				54AC108124FD463A006951AD /* SliderValue.swift */,
 				54AC107324FD3BB8006951AD /* GenderCard.swift */,
 				54AC107524FD3C08006951AD /* AgeCard.swift */,
 				54AC107724FD3C12006951AD /* HeightCard.swift */,
 				54AC107924FD3C1B006951AD /* WeightCard.swift */,
 				54AC107B24FD3C24006951AD /* ResultCard.swift */,
-				54AC107124FD398B006951AD /* CardLabel.swift */,
 				5455951124FD324900C00229 /* NextButton.swift */,
+				54AC108324FD4959006951AD /* CalculateButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				54AC107A24FD3C1B006951AD /* WeightCard.swift in Sources */,
 				54AC107024FD3927006951AD /* CardBackground.swift in Sources */,
 				54AC108224FD463A006951AD /* SliderValue.swift in Sources */,
+				54AC108424FD4959006951AD /* CalculateButton.swift in Sources */,
 				54AC107624FD3C08006951AD /* AgeCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
