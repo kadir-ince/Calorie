@@ -12,6 +12,11 @@ struct ContentView: View {
         VStack {
             Spacer()
             TitleCard()
+            GenderCard()
+            AgeCard()
+            HeightCard()
+            WeightCard()
+            ResultCard()
             NextButton()
         }
     }
