@@ -42,8 +42,7 @@ struct ContentView: View {
     }
 
     func moveToNextCard() {
-        
-        withAnimation(.spring()){
+        withAnimation(.spring()) {
             if activeCardIndex <= 4 {
                 activeCardIndex += 1
             } else {

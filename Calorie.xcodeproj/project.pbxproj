@@ -20,6 +20,8 @@
 		54AC107824FD3C12006951AD /* HeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107724FD3C12006951AD /* HeightCard.swift */; };
 		54AC107A24FD3C1B006951AD /* WeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107924FD3C1B006951AD /* WeightCard.swift */; };
 		54AC107C24FD3C24006951AD /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107B24FD3C24006951AD /* ResultCard.swift */; };
+		54AC107E24FD4038006951AD /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107D24FD4038006951AD /* Gender.swift */; };
+		54AC108024FD4086006951AD /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107F24FD4086006951AD /* CalorieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		54AC107724FD3C12006951AD /* HeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCard.swift; sourceTree = "<group>"; };
 		54AC107924FD3C1B006951AD /* WeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCard.swift; sourceTree = "<group>"; };
 		54AC107B24FD3C24006951AD /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		54AC107D24FD4038006951AD /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		54AC107F24FD4086006951AD /* CalorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		5455950E24FD31E600C00229 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				54AC107D24FD4038006951AD /* Gender.swift */,
+				54AC107F24FD4086006951AD /* CalorieModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -181,9 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AC107E24FD4038006951AD /* Gender.swift in Sources */,
 				54AC107824FD3C12006951AD /* HeightCard.swift in Sources */,
 				5455950124FD318000C00229 /* ContentView.swift in Sources */,
 				54AC107424FD3BB8006951AD /* GenderCard.swift in Sources */,
+				54AC108024FD4086006951AD /* CalorieModel.swift in Sources */,
 				545594FF24FD318000C00229 /* CalorieApp.swift in Sources */,
 				54AC107224FD398B006951AD /* CardLabel.swift in Sources */,
 				5455951224FD324900C00229 /* NextButton.swift in Sources */,
