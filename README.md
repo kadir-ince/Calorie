@@ -6,11 +6,11 @@ How Many Calories Should I Intake Per Day <br>
 
 
 
-<p align="center">
-| Light Mode 	| Dark Mode 	|
-|:-:	|:-:	|
-| <img height=630 src="https://github.com/kadir-ince/Distance-Calculator/blob/master/mode-light.gif" alt="What's like?"> 	| <img height=630 src="https://github.com/kadir-ince/Distance-Calculator/blob/master/mode-dark.gif" alt="What's like?"> 	|
-</p>
+
+| Light Mode | Dark Mode |
+| ---------- | ---------	|
+| <img height=630 src="https://github.com/kadir-ince/Calorie/blob/main/mode-light.gif" alt="What's like?"> 	| <img height=630 src="https://github.com/kadir-ince/Calorie/blob/main/mode-dark.gif" alt="What's like?"> 	|
+
 
 
 ## How Can I Open On My Mac?  🔨
