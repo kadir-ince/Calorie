@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct CardBackground: View {
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
-        Color(.white)
+        Color("CardBackground")
             .cornerRadius(20)
-            .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            .shadow(color:colorScheme == .dark ? Color(.systemRed):Color(.systemPurple) , radius: 5, x: 0, y: 0)
+        
+
     }
 }
