@@ -8,16 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var activeCardIndex: Int = 0
+
     var body: some View {
         VStack {
             Spacer()
-            TitleCard()
-            GenderCard()
-            AgeCard()
-            HeightCard()
-            WeightCard()
-            ResultCard()
+            if activeCardIndex == 0 {
+                TitleCard()
+            }
+            if activeCardIndex == 1 {
+                GenderCard()
+            }
+            if activeCardIndex == 2 {
+                AgeCard()
+            }
+
+            if activeCardIndex == 3 {
+                HeightCard()
+            }
+            if activeCardIndex == 4 {
+                WeightCard()
+            }
+
+            if activeCardIndex == 5 {
+                ResultCard()
+            }
+
             NextButton()
+                .onTapGesture(perform: {
+                    moveToNextCard()
+                })
+        }
+    }
+
+    func moveToNextCard() {
+        
+        withAnimation(.spring()){
+            if activeCardIndex <= 4 {
+                activeCardIndex += 1
+            } else {
+                activeCardIndex = 0
+            }
         }
     }
 }
