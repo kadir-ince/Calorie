@@ -14,12 +14,7 @@ struct AgeCard: View {
             CardBackground()
             VStack {
                 CardLabel(title: "Age", caption: "Select Your Age")
-                Text(String(format: "%0.0f", model.age))
-                    .font(.title)
-                    .frame(width: 80, height: 80)
-                    .foregroundColor(.white)
-                    .background(Color(.systemBlue))
-                    .clipShape(Circle())
+                SliderValue(value: model.age)
                 Slider(value: $model.age, in: 10 ... 100, step: 1.0)
                     .padding()
             }
