@@ -11,6 +11,10 @@
 		5455950124FD318000C00229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455950024FD318000C00229 /* ContentView.swift */; };
 		5455950324FD318200C00229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5455950224FD318200C00229 /* Assets.xcassets */; };
 		5455950624FD318200C00229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5455950524FD318200C00229 /* Preview Assets.xcassets */; };
+		5455951024FD324000C00229 /* TitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455950F24FD324000C00229 /* TitleCard.swift */; };
+		5455951224FD324900C00229 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455951124FD324900C00229 /* NextButton.swift */; };
+		54AC107024FD3927006951AD /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC106F24FD3927006951AD /* CardBackground.swift */; };
+		54AC107224FD398B006951AD /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC107124FD398B006951AD /* CardLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		5455950224FD318200C00229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5455950524FD318200C00229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5455950724FD318200C00229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5455950F24FD324000C00229 /* TitleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCard.swift; sourceTree = "<group>"; };
+		5455951124FD324900C00229 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		54AC106F24FD3927006951AD /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
+		54AC107124FD398B006951AD /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				5455950024FD318000C00229 /* ContentView.swift */,
+				5455950F24FD324000C00229 /* TitleCard.swift */,
+				54AC106F24FD3927006951AD /* CardBackground.swift */,
+				54AC107124FD398B006951AD /* CardLabel.swift */,
+				5455951124FD324900C00229 /* NextButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -156,6 +168,10 @@
 			files = (
 				5455950124FD318000C00229 /* ContentView.swift in Sources */,
 				545594FF24FD318000C00229 /* CalorieApp.swift in Sources */,
+				54AC107224FD398B006951AD /* CardLabel.swift in Sources */,
+				5455951224FD324900C00229 /* NextButton.swift in Sources */,
+				5455951024FD324000C00229 /* TitleCard.swift in Sources */,
+				54AC107024FD3927006951AD /* CardBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
