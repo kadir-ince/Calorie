@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ResultCard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            CardBackground()
+            VStack {
+                CardLabel(title: "Result", caption: "Your Basal Metabolic Rate is")
+            }
+        }.frame(width: 300, height: 500)
     }
 }
 

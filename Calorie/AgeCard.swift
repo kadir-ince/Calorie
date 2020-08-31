@@ -9,7 +9,12 @@ import SwiftUI
 
 struct AgeCard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            CardBackground()
+            VStack {
+                CardLabel(title: "Age", caption: "Select Your Age")
+            }
+        }.frame(width: 300, height: 500)
     }
 }
 

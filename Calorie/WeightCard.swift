@@ -9,7 +9,12 @@ import SwiftUI
 
 struct WeightCard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            CardBackground()
+            VStack {
+                CardLabel(title: "Weight", caption: "Select Your Weight (KG)")
+            }
+        }.frame(width: 300, height: 500)
     }
 }
 
